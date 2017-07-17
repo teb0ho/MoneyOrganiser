@@ -28,7 +28,7 @@ class notesCoins {
 
     }
 
-    static double FiveCent(double moneyLeftOver, double denoms, String denomDef) {
+    static double fiveCent(double moneyLeftOver, double denoms, String denomDef) {
 
         int denomCount = 0;
 
@@ -79,7 +79,7 @@ class notesCoins {
 
             }
 
-            FiveCent(remainder, denoms[11], denomDef[11]);
+            fiveCent(remainder, denoms[11], denomDef[11]);
 
             System.out.println();
 
