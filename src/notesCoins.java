@@ -4,7 +4,6 @@
 
 import java.util.Scanner;
 import java.util.InputMismatchException;
-import java.util.ArrayList;
 
 class notesCoins {
 
@@ -61,7 +60,6 @@ class notesCoins {
 
         double amount = 0;
         double remainder = 0;
-        ArrayList<String> list = new ArrayList<>();
         double[] denoms = {200, 100, 50, 20, 10, 5, 2, 1, 0.50, 0.20, 0.10, 0.05};
         String[] denomDef = {"R200", "R100", "R50", "R20", "R10", "R5", "R2", "R1", "50c", "20c", "10c", "5c"};
 
@@ -82,7 +80,7 @@ class notesCoins {
             }
 
             remainder = Math.round(remainder * 100) / 100.0d;
-            
+
             fiveCent(remainder, denoms[11], denomDef[11]);
 
         }
