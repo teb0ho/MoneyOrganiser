@@ -18,6 +18,7 @@ Or you can compile if you want to (from the root directory), before executing
 ```
 javac -d bin src/notesCoins.java
 ```
+### Denominations
 
 <table>
   <tr>
